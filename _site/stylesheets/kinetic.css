@@ -1,0 +1,148 @@
+
+
+.ib-main-wrapper{
+    width: 100%;
+    overflow: hidden;
+    outline: none;
+    /*height dynamic*/
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+.ib-main-wrapper.ib-spaced-top{
+    margin-top: 60px;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+.ib-main-wrapper.ib-spaced-bottom{
+    margin-bottom: 60px;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+.ib-main{
+    position: relative;
+    width: 4000px;
+    -webkit-transition: all 3s cubic-bezier(0.215, 0.61, 0.355, 1);
+       -moz-transition: all 3s cubic-bezier(0.215, 0.61, 0.355, 1);
+        -ms-transition: all 3s cubic-bezier(0.215, 0.61, 0.355, 1);
+         -o-transition: all 3s cubic-bezier(0.215, 0.61, 0.355, 1);
+            transition: all 3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.ib-main .ib-tile{
+    width: 400px;
+    height: 400px;
+    background-color: #000;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    cursor: move;
+    cursor: url('../images/tiles.png') 80 80, auto;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.ib-main .ib-tile img{
+    opacity: 0.2;
+    -webkit-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+       -moz-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+        -ms-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+         -o-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+            transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.ib-main .ib-tile span{
+    opacity: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    line-height: 22px;
+    text-align: center;
+    font-size: 11px;
+    bottom: 0;
+    left: 0;
+    padding-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-transition: all .8s linear;
+       -moz-transition: all .8s linear;
+        -ms-transition: all .8s linear;
+         -o-transition: all .8s linear;
+            transition: all .8s linear;
+}
+.ib-main .ib-tile:hover span{
+    opacity: 1;
+    -webkit-transition: all .8s linear;
+       -moz-transition: all .8s linear;
+        -ms-transition: all .8s linear;
+         -o-transition: all .8s linear;
+            transition: all .8s linear;
+}
+.ib-main .ib-tile:hover img{
+    opacity: 1;
+    -webkit-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+       -moz-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+        -ms-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+         -o-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+            transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.ib-main .ib-tile:hover{
+    cursor: drag;
+    background-size: 100% 100%;
+}
+.ib-content{
+    background: #f9f9f9;
+}
+.ib-content .ib-teaser{
+    text-align: center;
+    background: #333;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.ib-content .ib-teaser:hover{
+    background: #000;
+}
+.ib-content-preview{
+    position: absolute;
+    top: 44px;
+    left: 0px;
+    background: #000;
+    width: 100%;
+    height: 630px; /*dynamic*/
+    display: none;
+}
+
+.ib-main-wrapper.mob-yes{
+  overflow-x:hidden;
+  overflow-y:scroll !important;
+}
+.album-hint{
+    margin-top: 20%;
+    width: 250px;
+}
+.modal-content{
+    border-radius: 0;
+    padding: 5px;
+}
+.album-hint p{
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 10px;
+    line-height: 17px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

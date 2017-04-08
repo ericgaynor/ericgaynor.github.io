@@ -1,0 +1,107 @@
+/*MAIN-BG.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that intializes BG Images used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: focus.*/
+/* Author: Designova.*/
+/* Website: http://www.Designova.net */
+/* Copyright: (C) 2015 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------*/
+/* INTRO VARIANTS */
+/*--------------------------------------------------------------*/
+
+/*INTRO-02*/
+.showcase-panel-bg-01{
+	background-image: url('http://placehold.it/1500x1000');
+}
+.showcase-panel-bg-02{
+	background-image: url('http://placehold.it/1500x1000');
+}
+.showcase-panel-bg-03{
+	background-image: url('http://placehold.it/1500x1000');
+}
+.showcase-panel-bg-04{
+	background-image: url('http://placehold.it/1500x1000');
+}
+.showcase-panel-bg-05{
+	background-image: url('http://placehold.it/1500x1000');
+}
+
+/*INTRO-03*/
+.intro-03 .carousel-slide-01{
+	background-image: url('http://placehold.it/1500x1000');
+}
+.intro-03 .carousel-slide-02{
+	background-image: url('http://placehold.it/1500x1000');
+}
+.intro-03 .carousel-slide-03{
+	background-image: url('http://placehold.it/1500x1000');
+}
+.intro-03 .carousel-slide-04{
+	background-image: url('http://placehold.it/1500x1000');
+}
+.intro-03 .carousel-slide-05{
+	background-image: url('http://placehold.it/1500x1000');
+}
+.intro-03 .carousel-slide-06{
+	background-image: url('http://placehold.it/1500x1000');
+}
+.intro-03 .carousel-slide-07{
+	background-image: url('http://placehold.it/1500x1000');
+}
+.intro-03 .carousel-slide-08{
+	background-image: url('http://placehold.it/1500x1000');
+}
+.intro-03 .carousel-slide-09{
+	background-image: url('http://placehold.it/1500x1000');
+}
+
+/*INTRO-05*/
+.intro-05-bg{
+	background-image: url(../images/photos/nyc/6x6BW027-COVER.jpg);
+}
+
+/*ALBUMS*/
+
+/*album-carousel*/
+.album-carousel .carousel-slide-01{
+	background-image: url(../images/photos/military/BasicColor005.jpg);
+}
+.album-carousel .carousel-slide-02{
+	background-image: url(../images/photos/mma/_FLO8029.jpg);
+}
+.album-carousel .carousel-slide-03{
+	background-image: url(../images/photos/metal/35mmBW006.jpg);
+}
+.album-carousel .carousel-slide-04{
+	background-image: url(../images/photos/tattoo/TattooCon004.jpg);
+}
+.album-carousel .carousel-slide-05{
+	background-image: url(../images/photos/parade/6x6BW016_ABOUT.jpg);
+}
+.album-carousel .carousel-slide-06{
+	background-image: url(../images/photos/nyc/ColumbiaNYC002.jpg);
+}
+.album-carousel .carousel-slide-07{
+	background-image: url('http://placehold.it/1500x1000');
+}
+.album-carousel .carousel-slide-08{
+	background-image: url('http://placehold.it/1500x1000');
+}
+.album-carousel .carousel-slide-09{
+	background-image: url('http://placehold.it/1500x1000');
+}
+
+
+/*PAGE*/
+.about-bg{
+	background-image: url(../images/photos/parade/6x6BW016_ABOUT.jpg);
+}
+.contact-bg{
+	background-image: url(../images/photos/tattoo/TattooCon015-Contact.jpg);
+}
+.error-bg{
+	background-image: url(../images/photos/military/BasicColor003-ERROR.jpg);
+}

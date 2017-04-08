@@ -1,0 +1,96 @@
+
+/*ALBUMS*/
+.album-carousel{
+  background: #000;
+}
+.album-carousel .owl-item{
+  width: 300px;
+}
+.album-carousel .item{
+  opacity: 0.2;
+  background-color: #eee;
+  text-align: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+     -moz-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    -ms-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+     -o-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+      transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+.album-carousel .item:hover{
+  opacity: 1;
+  -webkit-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+     -moz-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    -ms-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+     -o-transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+      transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+.album-carousel .item a{
+  display: block;
+  height: 100%;
+}
+.album-carousel h4{
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+.album-carousel h4>span{
+  opacity: 0;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  padding: 5px;
+  padding-left: 12px;
+  padding-bottom: 3px;
+  text-shadow:none;
+  box-shadow: none;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+     -o-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+}
+.album-carousel .item:hover h4 > span{
+  opacity: 1;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+     -o-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+}
+
+.ib-main-wrapper.mob-yes{
+  overflow-x:hidden;
+  overflow-y:scroll !important;
+}
+
+.stack-grid{
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+/* clearfix */
+.packery:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+
+.stack-grid .works-item {
+  width:  48%;
+  float: left;
+  background: #C09;
+  -webkit-transition: all .4s ease-in-out;
+     -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+     -o-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+}
+
+.stack-grid .works-item.w2 { width:  48%; background: #9C0;}
+.stack-grid .works-item.w4 { width:  48%; background: #90C;}
+

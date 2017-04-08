@@ -1,0 +1,42 @@
+.intro-03{
+	
+}
+.intro-03 .owl-item{
+	width: 300px;
+}
+.intro-03 .item{
+	background-color: #eee;
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.intro-03 h4{
+	margin-bottom: 20px;
+}
+.intro-03 h4>span{
+	opacity: 0;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	padding: 5px;
+	padding-left: 8px;
+	padding-bottom: 3px;
+	text-shadow:none;
+	box-shadow: none;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+}
+.intro-03 .item:hover h4 > span{
+	opacity: 1;
+	-webkit-transition: all .4s ease-in-out;
+	   -moz-transition: all .4s ease-in-out;
+		-ms-transition: all .4s ease-in-out;
+		 -o-transition: all .4s ease-in-out;
+			transition: all .4s ease-in-out;
+}

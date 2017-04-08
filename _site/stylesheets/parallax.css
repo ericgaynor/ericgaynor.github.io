@@ -1,0 +1,13 @@
+
+.parallax{
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed !important;
+}
+
+/*this class will be activated on mobile devices in order to switch off the parallax effect*/
+.parallax-off, .no-parallax {
+	background-attachment:scroll !important;
+	background-size:cover !important;
+}

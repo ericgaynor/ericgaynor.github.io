@@ -1,0 +1,155 @@
+.white {
+  color: #ffffff;
+}
+.offwhite {
+  color: #f1f1f1;
+}
+.silver {
+  color: #dddee0;
+}
+.dark {
+  color: #272727;
+}
+.black {
+  color: #191919;
+}
+.grey {
+  color: #cccccc;
+}
+.color {
+  color: #dfb47d;
+}
+.white-bg {
+  background-color: #ffffff;
+}
+.offwhite-bg {
+  background-color: #f1f1f1;
+}
+.silver-bg {
+  background-color: #dddee0;
+}
+.dark-bg {
+  background-color: #272727;
+}
+.black-bg {
+  background-color: #191919;
+}
+.grey-bg {
+  background-color: #cccccc;
+}
+.color-bg {
+  background-color: #dfb47d;
+}
+a:hover {
+  color: #dfb47d;
+}
+::selection {
+  background-color: #dfb47d;
+  color: #ffffff;
+}
+::-moz-selection {
+  background-color: #dfb47d;
+  color: #ffffff;
+}
+.btn-focus-color {
+  border-color: #dfb47d;
+  color: #dfb47d;
+}
+.btn-focus-color:hover {
+  border-color: #191919;
+  color: #191919;
+}
+.mm-list > li > a,
+.mm-list > li > span {
+  color: #272727;
+}
+.mm-list > li > a:hover,
+.mm-list > li > span:hover {
+  color: #cccccc;
+}
+.mm-menu {
+  background-color: #ffffff;
+}
+.ib-main .ib-tile span {
+  background-color: #ffffff;
+  color: #272727;
+}
+.custom-gallery-white .fancybox-title-float-wrap .child {
+  color: #272727;
+}
+.gallery-timeline .entry h1 {
+  background-color: #272727;
+  color: #ffffff;
+}
+.gallery-timeline .entry h3 {
+  background-color: #ffffff;
+  color: #272727;
+}
+.news-post-nav ul li a div {
+  border-color: #dfb47d;
+}
+.news-post-nav ul li a:hover div {
+  border-color: #dfb47d;
+  background-color: #dfb47d;
+  color: #ffffff;
+}
+.font1 {
+  font-family: 'Tinos', serif;
+}
+.font2 {
+  font-family: 'Montserrat', sans-serif;
+}
+.font3 {
+  font-family: 'Raleway', sans-serif;
+}
+.font4 {
+  font-family: 'designova_hgr_regular', sans-serif;
+}
+.font4thin {
+  font-family: 'designova_hgr_thin', sans-serif;
+}
+.font4light {
+  font-family: 'designova_hgr_light', sans-serif;
+}
+.font4bold {
+  font-family: 'designova_hgr_bold', sans-serif;
+}
+.font4black {
+  font-family: 'designova_hgr_black', sans-serif;
+}
+body,
+p {
+  font-family: 'designova_hgr_light', sans-serif;
+}
+.mean-container .mean-nav ul li a {
+  font-family: 'Raleway', sans-serif;
+}
+.mm-list > li > a,
+.mm-list > li > span {
+  font-family: 'designova_hgr_regular', sans-serif;
+}
+.menu-trigger:after,
+.gallery-trigger:before {
+  font-family: 'Tinos', serif;
+}
+.credits dt {
+  font-family: 'Montserrat', sans-serif;
+}
+.credits dd {
+  font-family: 'Tinos', serif;
+}
+ul.slimmenu li a {
+  font-family: 'Montserrat', sans-serif;
+}
+.ib-main > a > span {
+  font-family: 'designova_hgr_regular', sans-serif;
+}
+.custom-gallery-white .fancybox-title-float-wrap .child {
+  font-family: 'designova_hgr_regular', sans-serif;
+}
+.timeline-item .entry h1 {
+  font-family: 'designova_hgr_light', sans-serif;
+}
+.timeline-item .entry h3 {
+  font-family: 'Tinos', serif;
+}

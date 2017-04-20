@@ -31,31 +31,40 @@
 
 /*INTRO-03*/
 .intro-03 .carousel-slide-01{
-	background-image: url('http://placehold.it/1500x1000');
+	background-image: url(../images/photos/military/A01.jpg);
 }
 .intro-03 .carousel-slide-02{
-	background-image: url('http://placehold.it/1500x1000');
+	background-image: url(../images/photos/military/A02.jpg);
 }
 .intro-03 .carousel-slide-03{
-	background-image: url('http://placehold.it/1500x1000');
+	background-image: url(../images/photos/military/A03.jpg);
 }
 .intro-03 .carousel-slide-04{
-	background-image: url('http://placehold.it/1500x1000');
+	background-image: url(../images/photos/military/A04.jpg);
 }
 .intro-03 .carousel-slide-05{
-	background-image: url('http://placehold.it/1500x1000');
+	background-image: url(../images/photos/military/A05.jpg);
 }
 .intro-03 .carousel-slide-06{
-	background-image: url('http://placehold.it/1500x1000');
+	background-image: url(../images/photos/military/A06.jpg);
 }
 .intro-03 .carousel-slide-07{
-	background-image: url('http://placehold.it/1500x1000');
+	background-image: url(../images/photos/military/A07.jpg);
 }
 .intro-03 .carousel-slide-08{
-	background-image: url('http://placehold.it/1500x1000');
+	background-image: url(../images/photos/military/A08.jpg);
 }
 .intro-03 .carousel-slide-09{
-	background-image: url('http://placehold.it/1500x1000');
+	background-image: url(../images/photos/military/A09.jpg);
+}
+.intro-03 .carousel-slide-10{
+	background-image: url(../images/photos/military/A10.jpg);
+}
+.intro-03 .carousel-slide-11{
+	background-image: url(../images/photos/military/A12.jpg);
+}
+.intro-03 .carousel-slide-12{
+	background-image: url(../images/photos/military/A11.jpg);
 }
 
 /*INTRO-05*/
@@ -67,22 +76,22 @@
 
 /*album-carousel*/
 .album-carousel .carousel-slide-01{
-	background-image: url(../images/photos/military/BasicColor005.jpg);
+	background-image: url(../images/photos/military/SQUARE/A09.jpg);
 }
 .album-carousel .carousel-slide-02{
-	background-image: url(../images/photos/mma/_FLO8029.jpg);
+	background-image: url(../images/photos/mma/SQUARE/B12-bw.jpg);
 }
 .album-carousel .carousel-slide-03{
-	background-image: url(../images/photos/metal/35mmBW006.jpg);
+	background-image: url(../images/photos/metal/SQUARE/C04.jpg);
 }
 .album-carousel .carousel-slide-04{
-	background-image: url(../images/photos/tattoo/TattooCon004.jpg);
+	background-image: url(../images/photos/tattoo/SQUARE/D05.jpg);
 }
 .album-carousel .carousel-slide-05{
-	background-image: url(../images/photos/parade/6x6BW016_ABOUT.jpg);
+	background-image: url(../images/photos/parade/SQUARE/E06.jpg);
 }
 .album-carousel .carousel-slide-06{
-	background-image: url(../images/photos/nyc/ColumbiaNYC002.jpg);
+	background-image: url(../images/photos/nyc/SQUARE/F08.jpg);
 }
 .album-carousel .carousel-slide-07{
 	background-image: url('http://placehold.it/1500x1000');

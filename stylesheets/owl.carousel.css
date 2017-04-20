@@ -52,6 +52,9 @@
  *  Core Owl Carousel CSS File
  */
 .owl-carousel {
+	margin:10;
+	autoWidth:true;
+	items:4;
   display: none;
   width: 100%;
   -webkit-tap-highlight-color: transparent;
